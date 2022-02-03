@@ -7,18 +7,21 @@
     <title>Cash_register_app</title>
     <link rel="stylesheet" href="style.css" class="css">
 </head>
+
 <body>
     <div id="container">
     <h1>Cash Register App</h1>
+    <p>Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
     <label for="billamount">Bill Amount</label><br/>
     <input type="number" id="billamount"></input><br/><br/>
     <label for="cashgiven">Cash Amount</label><br/>
     <input type="number" id="cashgiven"></input><br/><br/>
     <p id="message"></p>
     <button id="btnclick">Click</button><br/><br/>
-    <table>
+    <table class="center">
+        <caption>Return change</caption><br/>
         <tr>
-            <th>No. of notes</th>
+            <th>No. of Notes</th>
             <td class="notesno"></td>
             <td class="notesno"></td>
             <td class="notesno"></td>
@@ -28,7 +31,7 @@
             <td class="notesno"></td>
         </tr>
         <tr>
-            <th>Notes available</th>
+            <th>Note</th>
             <td>2000</td>
             <td>500</td>
             <td>100</td>
