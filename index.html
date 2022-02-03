@@ -8,22 +8,24 @@
     <link rel="stylesheet" href="style.css" class="css">
 </head>
 <body>
+    <div id="container">
     <h1>Cash Register App</h1>
     <label for="billamount">Bill Amount</label><br/>
     <input type="number" id="billamount"></input><br/><br/>
     <label for="cashgiven">Cash Amount</label><br/>
     <input type="number" id="cashgiven"></input><br/><br/>
+    <p id="message"></p>
     <button id="btnclick">Click</button><br/><br/>
     <table>
         <tr>
             <th>No. of notes</th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td class="notesno"></td>
+            <td class="notesno"></td>
+            <td class="notesno"></td>
+            <td class="notesno"></td>
+            <td class="notesno"></td>
+            <td class="notesno"></td>
+            <td class="notesno"></td>
         </tr>
         <tr>
             <th>Notes available</th>
@@ -36,6 +38,7 @@
             <td>1</td>
         </tr>
     </table>
+</div>
 
 <script src="app.js"></script>
 </body>
