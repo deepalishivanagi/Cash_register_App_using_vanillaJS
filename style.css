@@ -1,0 +1,8 @@
+body{
+    text-align: center;
+    
+}
+table,tr,th,td{
+    margin-left: 40%;
+    border: 0.1rem solid black;
+}
