@@ -28,6 +28,7 @@ var Notes = [2000, 500, 100, 20, 10, 5, 1];
 function OnclickHandler() {
     errormsg.innerHTML = '';
     if (BillAmountis.value > 0) {
+        // BillAmountis.style.display='none' it is the bonus point to disable/hide the first bill amount input after entering cash input
         if (parseInt(CashAmountis.value) >= parseInt(BillAmountis.value)) {
             var amount = parseInt(CashAmountis.value) - parseInt(BillAmountis.value);
             Calculate(amount);
