@@ -20,7 +20,7 @@ th,td{
     height: 2rem;
 }
 #btnclick{
-    width: 5%;
+    width: auto;
     height: 2rem;
     font-size: 100%;
 }
