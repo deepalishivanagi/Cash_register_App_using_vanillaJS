@@ -34,10 +34,16 @@ function OnclickHandler() {
             Calculate(amount);
         } else {
             errormsg.innerHTML = 'Cash amount should be greater than or equal to bill amount';
+            for (var i = 0; i < Notes.length; i++) {
+                reqnotes[i].innerHTML = " ";
+            }
         }
         
     } else {
         errormsg.innerHTML = 'Invalid amount!';
+        for (var i = 0; i < Notes.length; i++) {
+            reqnotes[i].innerHTML = " ";
+        }
     }
 }
 
